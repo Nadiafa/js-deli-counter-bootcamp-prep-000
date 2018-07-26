@@ -9,7 +9,7 @@ function nowServing() {
   } else {
      deliLine.shift()
     }
-    
+  return deliLine
   }
 
 
