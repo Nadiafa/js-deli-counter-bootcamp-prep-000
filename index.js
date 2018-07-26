@@ -4,5 +4,5 @@ function takeANumber(line, name) {
 }
 
 function nowServing() {
-  return line.
+  return line.shit()
 }
