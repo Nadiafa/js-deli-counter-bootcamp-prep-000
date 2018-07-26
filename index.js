@@ -4,6 +4,23 @@ function takeANumber(katzDeliLine, name) {
   return `Welcome, ${name}. You are number ${i} in line.`
 }
 
+// function currentLine(line) {
+//   if (!line.length) {
+//     return "The line is currently empty."
+//   }
+
+//   const numbersAndNames = []
+
+//   for (let i = 0, l = line.length; i < l; i++) {
+//     numbersAndNames.push(`${i + 1}. ${line[i]}`)
+//   }
+
+//   return `The line is currently: ${numbersAndNames.join(', ')}`
+// };
+
+
+
+
 
 
 
@@ -37,16 +54,3 @@ function takeANumber(katzDeliLine, name) {
 //   });
 
 
-// function currentLine(line) {
-//   if (!line.length) {
-//     return "The line is currently empty."
-//   }
-
-//   const numbersAndNames = []
-
-//   for (let i = 0, l = line.length; i < l; i++) {
-//     numbersAndNames.push(`${i + 1}. ${line[i]}`)
-//   }
-
-//   return `The line is currently: ${numbersAndNames.join(', ')}`
-// };
