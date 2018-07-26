@@ -5,7 +5,7 @@ function takeANumber(line, name) {
 
 function nowServing() {
   if (!line) {
-    return `The line is empty when no one is on line.`
+    return `The line is currently empty.`
   } else {
     return line.shift()
   }
