@@ -10,13 +10,12 @@ function nowServing(line) {
   return `Currently serving ${line.shift()}.`
   }
 
-// function currentLine(line) {
-//   if (line.length === 0) {
-//     return `The line is currently empty.`
-//   } else {
-    
-//   }
-// }
+function currentLine(line) {
+  if (line.length === 0) {
+    return `The line is currently empty.`
+  } 
+      
+}
 
 
 
@@ -32,12 +31,4 @@ function nowServing(line) {
 //   }
 
 //   return `The line is currently: ${numbersAndNames.join(', ')}`
-// };
-
-// function nowServing(line) {
-//   if (!line.length) {
-//     return "There is nobody waiting to be served!"
-//   }
-
-//   return `Currently serving ${line.shift()}.`
 // };
