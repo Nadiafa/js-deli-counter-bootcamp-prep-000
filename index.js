@@ -5,9 +5,11 @@ function takeANumber(line, name) {
 
 function nowServing() {
   if (!line) {
-    return `The line is currently empty.`
+    return `There is nobody waiting to be served!`
   } else {
-    return `The line is currently: line.shift()
+      return line.shift()
+    }
+    
   }
 
 }
