@@ -7,7 +7,7 @@ function nowServing() {
   if (deliLine.length === 0) {
     return `There is nobody waiting to be served!`
   } else {
-     deliLine=deliLine.shift()
+     deliLine.slice(0, deliLine.length-1)
     }
   return deliLine
   }
