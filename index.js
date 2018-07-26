@@ -1,1 +1,1 @@
-var katzDeli = [];
+// var katzDeli = [];
