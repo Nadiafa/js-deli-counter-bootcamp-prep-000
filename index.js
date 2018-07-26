@@ -4,5 +4,10 @@ function takeANumber(line, name) {
 }
 
 function nowServing() {
+  if (!line) {
+    return 
+  }
+  
+  
   return line.shit()
 }
