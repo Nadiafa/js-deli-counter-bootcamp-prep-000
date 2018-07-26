@@ -1,6 +1,6 @@
 function takeANumber(line, name) {
  katzDeli.push(name)
-  return `Welcome, ${name}. You are number ${i} in line.`
+  return `Welcome, ${name}. You are number ${line.length} in line.`
 }
 
 // function currentLine(line) {
