@@ -4,7 +4,7 @@ function takeANumber(line, name) {
 }
 
 function nowServing() {
-  if (line.length === 0) {
+  if (deliLine.length === 0) {
     return `There is nobody waiting to be served!`
   } else {
      deliLine.shift()
