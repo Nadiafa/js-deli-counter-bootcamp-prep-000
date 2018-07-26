@@ -4,12 +4,12 @@ function takeANumber(line, name) {
 }
 
 function nowServing() {
-  if (deliLine.length === 0) {
+  if (line.length === 0) {
     return `There is nobody waiting to be served!`
   } else {
-     deliLine.slice(0, deliLine.length-1)
+     line.slice(0, line.length-1)
     }
-  return deliLine
+  return line
   }
 
 
